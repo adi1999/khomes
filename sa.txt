@@ -1,0 +1,80 @@
+Delieverables 
+
+
+Some of the Key Acheivements in out projects are 
+
+Offline Adjustments
+I've developed a functionality in Saturn UI, which provides us the functionality to upload
+data via excel/csv, and can persist to tables within seconds. This was developed because our users are global users,
+which means that they are the ones who are uploading and validating the data, and that's why we don't need to use the strategic uploader.
+In strategic uploader too, we've done a POC to remove the four eye check for specific users, and once we have the complaince approval,
+we can promote this to higher environments.
+
+BCS Dynamic Logic
+In FTPMI, the way our users are performing the calculations is via excel, and there they've the flexibility to apply
+dynamic rules just by using dropdowns/ formulas, to replicate it in our pipeline logic, I've designed and implemented similar functionality.
+Here, user will just need to update one of our config table, where user will have the flexibility to change Fsi's, ftp_categories,  their correspoding UBR levels,
+legal code values etc, and they can also apply conditions like in, Not in, and our pipeline logic is able to produce results based on these values.
+
+ 
+Performance Optimization
+
+Earlier, we were follwing the traditional saturn nomenclature, which is 
+
+Data Sources => Landing Tables => CDL Tables => Results => Tableau Reports
+ and for our project, this was our previous overall time.
+ 
+Now, to remove reduntant steps and to boost the performance, I've designed a pipeline like this,
+
+Using this pipeline,I'm abel to reduce the overall time from 40 mins to just 5 mins in UAT, also, this since this pipeline
+doesn't need to persist a lot of config tables, we're also saving the space.
+
+
+
+
+Offline Data Upload Enhancement:
+Developed a feature in Saturn UI that enables quick data uploads via excel/csv, with seamless persistence to tables within seconds. This enhancement caters to our global user base, allowing them to upload and validate data without relying on the strategic uploader. Additionally, a successful proof of concept (POC) was conducted to eliminate the four-eye check for specific users, leading to quicker processing and smoother workflows.
+
+BCS Dynamic Logic:
+Implemented a dynamic rules functionality in FTPMI, empowering users to perform calculations with ease, similar to their Excel-based workflow. By updating a designated configuration table, users gain the flexibility to modify Fsi's, ftp_categories, UBR levels, legal code values, and apply conditions like in and not in. This adaptation of pipeline logic produces accurate results based on these dynamic values.
+
+Performance Optimization:
+Revamped the traditional Saturn nomenclature for our project, reducing redundant steps and enhancing performance. The updated pipeline, Data Sources => Landing Tables => CDL Tables => Results => Tableau Reports, significantly reduced processing time from 40 minutes to just 5 minutes during User Acceptance Testing (UAT). Furthermore, the optimized pipeline requires fewer config tables, resulting in space savings.
+
+These achievements have contributed to increased efficiency and improved user experience in our projects.
+
+
+
+
+
+In college, I’ve done a couple of research internships with international research groups in the field of AI, before joining DB, I worked with BOSCH AI group , and I was working there on computer vision part of self driving cards
+
+And as a result, We’ve submitted 2 research papers this year in A* conferences.
+Specifically CVPR and ICRA.
+
+Currently, On weekends, I’m working with a group of Stanford where we are working on some optimisations problems.
+
+After joining DB, I’ve also worked on developing a tool called Smart Recruiter, that aims end-to-end Resume Parsing and Finding Candidates for a Job Description using BERT , here, I integrated this new BERT model, trained it on internal data. it reduces a lot of manual work, currently it is being used by PACE department for processing approx 200 resumes per month. At present, it is accurate for teach and BA roles, for rest of the profiles, we'll need a lot more resumes for model training.
+
+
+At present, I'm a part of Project, where I devote my 20% sprint time, here, we are working on Blockchain technologies,
+So far, we've developed and deployed a smart contract on ethereum test net, and handing it over to a auditing company, once we have the 
+audit clearance, we'll be able to issue bonds in germany market on blockchain, we're partners with Cashlink who have the regulatory
+clearance in germany to issue these bonds.
+
+
+
+
+During my time in college, I have engaged in research internships with international AI groups, before joining DB, I worked with the BOSCH AI group on computer vision for self-driving cars. 
+And this year we successfully submitted two research papers to prestigious A* conferences, specifically CVPR and ICRA.
+
+Apart from that, On weekends, Currently I am collaborating with a group at Stanford University where we are working on some optimisations problems.
+
+
+At DB, I played a pivotal role in developing the Smart Recruiter tool, streamlining resume parsing and candidate selection using BERT. This tool has significantly reduced manual work and is currently utilized by the PACE department for processing 200 resumes monthly.
+
+Furthermore, I am currently engaged in a Blockchain project that consumes 20% of my sprint time. where we successfully deployed a smart contract on the Ethereum test net. Once audited and cleared, we will issue bonds in the German market with the support of our partner, Cashlink, who holds the necessary regulatory clearance.
+ 
+
+
+Data Sources = > Landing => CDL => Results
